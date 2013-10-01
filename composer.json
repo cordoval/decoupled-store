@@ -16,41 +16,8 @@
     },
     "require": {
         "php": ">=5.3.2",
-        "doctrine/orm": ">=2.2.3,<2.4-dev",
-        "doctrine/doctrine-bundle": "1.2.*",
-        "doctrine/doctrine-fixtures-bundle": "dev-master",
-        "doctrine/mongodb-odm-bundle": "3.0.*@dev",
-        "friendsofsymfony/rest-bundle": "dev-master",
-        "friendsofsymfony/user-bundle": "dev-master",
-        "imagine/Imagine": "dev-master",
-        "merk/dough-bundle": "*",
-        "jms/security-extra-bundle": "dev-master",
-        "jms/serializer-bundle": "dev-master",
-        "knplabs/knp-menu-bundle": "dev-master",
-        "leafo/lessphp": "v0.4.0",
-
-        "omnipay/omnipay": "dev-master",
-        "sensio/distribution-bundle": "2.3.*",
-        "sensio/framework-extra-bundle": "2.3.*",
-        "sensio/generator-bundle": "2.3.*",
-        "symfony/assetic-bundle": "2.3.*",
-        "symfony/monolog-bundle": "2.3.*",
-        "symfony/swiftmailer-bundle": "2.3.*",
         "symfony/symfony": "2.3.*",
-        "twig/extensions": "1.0.*@dev",
-        "twbs/bootstrap": "~3.0",
-        "incenteev/composer-parameter-handler": "~2.0",
-        "white-october/pagerfanta-bundle": "dev-master",
-        "raulfraile/ladybug-bundle": "0.7",
-
-        "vespolina/admin-bundle": "*",
-        "vespolina/commerce-bundle": "dev-master",
-        "vespolina/taxation-bundle": "*",
-        "vespolina/store-bundle": "dev-master",
-
-        "payum/payum-bundle":                   "0.6.*@dev",
-        "payum/paypal-express-checkout-nvp":    "0.6.*@dev",
-        "payum/omnipay-bridge":                 "0.6.*@dev"
+        "raulfraile/ladybug-bundle": "0.7"
     },
     "require-dev": {
         "behat/behat": "3.0.0beta5@dev",
@@ -62,31 +29,7 @@
         "bossa/phpspec2-expect": "dev-master@dev"
     },
     "minimum-stability": "dev",
-    "scripts": {
-        "post-install-cmd": [
-            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
-        ],
-        "post-update-cmd": [
-            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
-        ]
-    },
     "config": {
         "bin-dir": "bin"
-    },
-    "extra": {
-        "symfony-app-dir": "app",
-        "symfony-web-dir": "web",
-        "incenteev-parameters": {
-            "file": "app/config/parameters.yml",
-            "keep-outdated": true
-        }
     }
 }
