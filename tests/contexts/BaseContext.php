@@ -5,7 +5,7 @@ use Behat\Behat\Exception\PendingException;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
 
-use Domain\Support\Helper;
+use DecoupledStore\Domain\Support\Helper;
 use Dough\Money\Money;
 
 /**

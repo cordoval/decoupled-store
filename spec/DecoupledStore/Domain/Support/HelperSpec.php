@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Domain\Support;
+namespace spec\DecoupledStore\Domain\Support;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -15,7 +15,7 @@ class HelperSpec extends ObjectBehavior
 
     function it_is_initializable()
     {
-        $this->shouldHaveType('Domain\Support\Helper');
+        $this->shouldHaveType('DecoupledStore\Domain\Support\Helper');
     }
 
     function it_creates_a_request_for_a_specific_book()

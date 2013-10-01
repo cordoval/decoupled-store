@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Domain\Model;
+namespace spec\DecoupledStore\Domain\Model;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -10,7 +10,7 @@ class BookSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('Domain\Model\Book');
+        $this->shouldHaveType('DecoupledStore\Domain\Model\Book');
     }
 
     function it_gets_identity()

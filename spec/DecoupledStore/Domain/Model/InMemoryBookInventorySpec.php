@@ -1,8 +1,8 @@
 <?php
 
-namespace spec\Domain\Model;
+namespace spec\DecoupledStore\Domain\Model;
 
-use Domain\Model\Book;
+use DecoupledStore\Domain\Model\Book;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
@@ -10,8 +10,8 @@ class InMemoryBookInventorySpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('Domain\Model\InMemoryBookInventory');
-        $this->shouldImplement('Domain\Model\BookInventory');
+        $this->shouldHaveType('DecoupledStore\Domain\Model\InMemoryBookInventory');
+        $this->shouldImplement('DecoupledStore\Domain\Model\BookInventory');
     }
 
     function it_finds_book_by_id()
