@@ -1,11 +1,10 @@
 <?php
 
-namespace Domain\Model;
+namespace DecoupledStore\Domain\Model;
 
-use Vespolina\Entity\Payment\PaymentToken;
 use Payum\Security\TokenInterface;
 
-class PayumPaymentToken extends PaymentToken implements TokenInterface
+class PayumPaymentToken implements TokenInterface
 {
     /**
      * @return string

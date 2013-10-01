@@ -4,7 +4,7 @@
                         xsi:schemaLocation="http://doctrine-project.org/schemas/odm/doctrine-mongo-mapping
                         http://doctrine-project.org/schemas/odm/doctrine-mongo-mapping.xsd">
 
-    <document name="Domain\Payum\Document\PaypalPaymentDetails" collection="vespolina_paypal_payment_details">
+    <document name="DecoupledStore\Domain\PayumPaymentToken" collection="vespolina_payum_payment_token">
         <field name="id" id="true" />
     </document>
 

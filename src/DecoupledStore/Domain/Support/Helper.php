@@ -1,6 +1,6 @@
 <?php
 
-namespace Domain\Support;
+namespace DecoupledStore\Domain\Support;
 
 use Domain\Model\Book;
 use Domain\Model\InMemoryBookInventory;

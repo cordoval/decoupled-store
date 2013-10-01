@@ -1,6 +1,6 @@
 <?php
 
-namespace Domain\Model;
+namespace DecoupledStore\Domain\Model;
 
 use Dough\Money\Money;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Infrastructure\Payum\Document;
+namespace DecoupledStore\Domain\Model;
 
 use Payum\Paypal\ExpressCheckout\Nvp\Bridge\Doctrine\Document\PaymentDetails;
 

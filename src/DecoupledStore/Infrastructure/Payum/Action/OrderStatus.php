@@ -1,6 +1,6 @@
 <?php
 
-namespace Infrastructure\Payum\Action;
+namespace DecoupledStore\Infrastructure\Payum\Action;
 
 class OrderStatus
 {
